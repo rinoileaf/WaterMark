@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">WaterMarkImage</string>
+    <string name="btnGenerate">Generate Watermark</string>
+    <string name="position_prompt">Choose a Position</string>
+    <string-array name="position_array">
+        <item>Top Left</item>
+        <item>Top Center</item>
+        <item>Top Right</item>
+        <item>Center Left</item>
+        <item>Center</item>
+        <item>Center Right</item>
+        <item>Bottom Left</item>
+        <item>Bottom Center</item>
+        <item>Bottom Right</item>
+        <item>Custom</item>
+        <item>Tile</item>
+    </string-array>
+</resources>

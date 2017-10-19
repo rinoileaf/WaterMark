@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/clr_white" >
+
+    <ImageView
+        android:id="@+id/img_watermark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/motivation" />
+
+    <Spinner
+        android:id="@+id/spn_rubberStampPositions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_watermark"
+        android:entries="@array/position_array"
+        android:prompt="@string/position_prompt"
+        android:layout_centerHorizontal="true"/>
+
+
+    <ImageView
+        android:id="@+id/img_watermark1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/spn_rubberStampPositions"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:src="@drawable/water_logo" />
+
+
+    <ImageView
+        android:id="@+id/img_watermark2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/spn_rubberStampPositions"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/water_mark_logo" />
+    <ImageView
+        android:id="@+id/img_watermark3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/spn_rubberStampPositions"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:src="@drawable/watermark_logo" />
+
+
+    <Button
+        android:id="@+id/btn_watermark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_watermark1"
+        android:background="@drawable/button_selector"
+        android:text="@string/btnGenerate"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/clr_white"/>
+
+
+</RelativeLayout>
